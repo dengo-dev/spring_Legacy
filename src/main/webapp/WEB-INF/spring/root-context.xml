@@ -13,6 +13,7 @@
         <property name="username" value="springdbuser"/>
         <property name="password" value="springdbuser"/>
         <property name="connectionTimeout" value="30000"/>
+        <property name="minimumIdle" value="2"/>
     </bean>
 
     <bean class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
