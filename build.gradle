@@ -39,6 +39,9 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 
     implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.4'
+
+    implementation 'com.zaxxer:HikariCP:5.0.0'
+
 }
 
 test {
