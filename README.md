@@ -1,6 +1,8 @@
-Version java 8EE
+Version
+- java EE 8
 
-JDK Java 11
+JDK 
+- Java 11
 
 Spring 5.3.27
 
