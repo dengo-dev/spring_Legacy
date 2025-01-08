@@ -4,4 +4,9 @@
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+<!--    알리아스로 잡아줘서 경로를 짧게 잡아준다 -> resultType="BoardVO" -->
+    <typeAliases>
+        <package name="org.zerock.ex00.domain"/>
+    </typeAliases>
+
 </configuration>
