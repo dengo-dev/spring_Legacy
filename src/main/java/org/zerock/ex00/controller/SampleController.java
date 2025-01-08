@@ -83,6 +83,7 @@ public class SampleController {
     rttr.addAttribute("v1","ABC");
     rttr.addAttribute("v2","XYZ");
 
+    //한 번만 전달한다.
     rttr.addFlashAttribute("core", "ABCDE");
 
     return "redirect:/sample/basic";
