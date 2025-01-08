@@ -28,4 +28,10 @@ public class TimeTests {
     log.info("---------------------");
 
   }
+
+  @Test
+  public void test2() {
+    log.info(timeMapper.getTime2());
+
+  }
 }

@@ -6,4 +6,6 @@ public interface TimeMapper {
 
   @Select("select now()")
   String getTime();
+
+  String getTime2();
 }
